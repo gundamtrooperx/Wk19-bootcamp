@@ -1,5 +1,7 @@
 import React from 'react';
 import Axios from 'axios';
+import EmpolyeeDetail from "./EmployeeDetail";
+
 
 class Employee extends React.Component {
     state = {
@@ -15,7 +17,7 @@ class Employee extends React.Component {
                     fname: response.data.results[i].name.first ,
                     lname: response.data.results[i].name.last ,
                     cellphone: response.data.results[i].cell ,
-                    location: response.data.results[i].location
+                    location: response.data.results[i].location.city
                 })
             }
             this.setState({employeerecords})
@@ -24,6 +26,30 @@ class Employee extends React.Component {
     }
     render() {
         return (<div className='container'>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>First name</th>
+                        <th> Last name</th>
+                        <th>Cell</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {this.state.employeerecords.map((rec,key) => (
+                        <EmpolyeeDetail 
+                           id = {rec.id}
+                           fname={rec.fname}
+                           lname={rec.lname}
+                           cellphone={rec.cellphone}
+                           location={rec.location}
+                           key={key}
+                           />
+
+                    ))}
+                </tbody>
+            </table>
             hiiiii
         </div>)
 
