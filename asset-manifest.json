@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/weekk19-bootcamp/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/weekk19-bootcamp/static/js/main.3e65c238.chunk.js",
-    "main.js.map": "/weekk19-bootcamp/static/js/main.3e65c238.chunk.js.map",
+    "main.js": "/weekk19-bootcamp/static/js/main.6ef7757b.chunk.js",
+    "main.js.map": "/weekk19-bootcamp/static/js/main.6ef7757b.chunk.js.map",
     "runtime-main.js": "/weekk19-bootcamp/static/js/runtime-main.f3cc96c0.js",
     "runtime-main.js.map": "/weekk19-bootcamp/static/js/runtime-main.f3cc96c0.js.map",
     "static/js/2.8a8a9e05.chunk.js": "/weekk19-bootcamp/static/js/2.8a8a9e05.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.f3cc96c0.js",
     "static/js/2.8a8a9e05.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.3e65c238.chunk.js"
+    "static/js/main.6ef7757b.chunk.js"
   ]
 }
