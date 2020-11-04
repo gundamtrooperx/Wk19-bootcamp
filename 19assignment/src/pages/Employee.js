@@ -1,7 +1,7 @@
 import React from 'react';
 import Axios from 'axios';
 import EmpolyeeDetail from "./EmployeeDetail";
-
+//REACT Class component
 
 class Employee extends React.Component {
     state = {
